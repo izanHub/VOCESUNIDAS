@@ -64,7 +64,6 @@ footer {
     color: #fff;
     padding: 10px 0;
     text-align: center;
-    position: absolute;
     bottom: 0;
     width: 100%;
 }
@@ -80,6 +79,7 @@ section {
     text-align: center;
     display: flex;
     text-align: center;
+    padding-bottom: 94px;
 }
 
 #nosotros {
@@ -149,4 +149,171 @@ button {
 
 button:hover {
     background-color: #300c0c;
+}
+
+.youtube{
+    width:540px; 
+    height:300px;
+}
+
+@media (max-width: 1387px){
+    .youtube{
+        width: 70%;
+    }
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .imgini{
+        border-radius: 10%;
+        max-width: 100%;
+    }
+    
+    .logo{
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        align-items: center;  
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .dropdown {
+        position: relative;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #333;
+        min-width: 160px;
+        z-index: 1;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    main {
+        padding: 20px;
+    }
+    
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+
+        bottom: 0;
+        width: 100%;
+    }
+    
+    section {
+        padding: 8px 0px;
+    }
+    
+    
+    #inicio {
+        background-color: #f0f0f0;
+        padding: 0px;
+        text-align: center;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    #nosotros {
+        background-color: #e0e0e0;
+        padding: 50px;
+        text-align: center;
+    }
+    
+    #contacto {
+        background-color: #d0d0d0;
+        padding: 100px;
+        text-align: center;
+        margin-left: 100px;
+        border-radius: 10%;
+    }
+    
+    form {
+        max-width: 400px;
+        margin: 40px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        margin: 0;
+        color: rgb(0, 0, 0);
+        margin-left: 300px;
+    }
+    
+    .campo {
+       
+        margin-bottom: 8px;
+        margin-right: 10px;
+    }
+    
+    label {
+        margin-bottom: 5px;
+        margin-right: 5px;
+    }
+    
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    textarea {
+        resize: vertical; /* Permite que el textarea se re dimensione verticalmente */
+    }
+    
+    input[type="checkbox"] {
+        margin-right: 5px;
+    }
+    
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        border-radius: 15px;
+    }
+    
+    button:hover {
+        background-color: #300c0c;
+    }
+    
 }
